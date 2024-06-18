@@ -1,0 +1,28 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\JPT\Projects\16\1608 - FPGA Master Course\Quartus\New Project\Qsys\MyQsys.qsys" --synthesis=VERILOG --output-directory="C:\JPT\Projects\16\1608 - FPGA Master Course\Quartus\New Project\Qsys\MyQsys\synthesis" --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading Qsys/MyQsys.qsys
+Progress: Reading input file
+Progress: Adding SDRAM_Controller [altera_avalon_new_sdram_controller 16.1]
+Progress: Parameterizing module SDRAM_Controller
+Progress: Adding altpll_0 [altpll 16.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 16.1]
+Progress: Parameterizing module clk_0
+Progress: Adding clock_bridge_0 [altera_clock_bridge 16.1]
+Progress: Parameterizing module clock_bridge_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: MyQsys.SDRAM_Controller: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: MyQsys.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Info: MyQsys: Generating MyQsys "MyQsys" for QUARTUS_SYNTH
+Info: SDRAM_Controller: Starting RTL generation for module 'MyQsys_SDRAM_Controller'
+Info: SDRAM_Controller:   Generation command is [exec Z:/junctions/altera/16.1/quartus/bin64/perl/bin/perl.exe -I Z:/junctions/altera/16.1/quartus/bin64/perl/lib -I Z:/junctions/altera/16.1/quartus/sopc_builder/bin/europa -I Z:/junctions/altera/16.1/quartus/sopc_builder/bin/perl_lib -I Z:/junctions/altera/16.1/quartus/sopc_builder/bin -I Z:/junctions/altera/16.1/quartus/../ip/altera/sopc_builder_ip/common -I Z:/junctions/altera/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- Z:/junctions/altera/16.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=MyQsys_SDRAM_Controller --dir=C:/Users/User/AppData/Local/Temp/alt7349_2296392671427785448.dir/0005_SDRAM_Controller_gen/ --quartus_dir=Z:/junctions/altera/16.1/quartus --verilog --config=C:/Users/User/AppData/Local/Temp/alt7349_2296392671427785448.dir/0005_SDRAM_Controller_gen//MyQsys_SDRAM_Controller_component_configuration.pl  --do_build_sim=0  ]
+Info: SDRAM_Controller: Done RTL generation for module 'MyQsys_SDRAM_Controller'
+Info: SDRAM_Controller: "MyQsys" instantiated altera_avalon_new_sdram_controller "SDRAM_Controller"
+Info: altpll_0: "MyQsys" instantiated altpll "altpll_0"
+Info: rst_controller: "MyQsys" instantiated altera_reset_controller "rst_controller"
+Info: MyQsys: Done "MyQsys" with 4 modules, 6 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
